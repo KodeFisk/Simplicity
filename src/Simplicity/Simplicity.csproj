@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>KodeFisk.Simplicity</AssemblyName>
+    <RootNamespace>KodeFisk.Simplicity</RootNamespace>
   </PropertyGroup>
 
 </Project>
