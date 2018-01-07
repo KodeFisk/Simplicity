@@ -4,6 +4,12 @@
     <TargetFramework>netstandard1.0</TargetFramework>
     <AssemblyName>KodeFisk.Simplicity</AssemblyName>
     <RootNamespace>KodeFisk.Simplicity</RootNamespace>
+    <Authors>Jon Stødle</Authors>
+    <Company>KodeFisk</Company>
+    <Description>A library of extension methods to make C# easier to write and read.</Description>
+    <Copyright>KodeFisk 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/KodeFisk/Simplicity/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/KodeFisk/Simplicity</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
