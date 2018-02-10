@@ -27,5 +27,15 @@ namespace System
             mutation(This);
             return This;
         }
+
+        /// <summary>
+        /// Assigns the object instance to the specified member.
+        /// This is useful as a more readable way to assign to members of a class.
+        /// </summary>
+        /// <param name="This">The object instance to be assigned.</param>
+        /// <param name="member">The member of a class to assign the object instance.</param>
+        /// <typeparam name="T">The type of the object.</typeparam>
+        /// <returns>The same object instance.</returns>
+        public static T Assign<T>(this T This, out T member) => member = This;
     }
 }
