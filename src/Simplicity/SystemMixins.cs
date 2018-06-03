@@ -36,6 +36,6 @@ namespace System
         /// <param name="variable">The variable to assign the object instance.</param>
         /// <typeparam name="T">The type of the object.</typeparam>
         /// <returns>The same object instance.</returns>
-        public static T Assign<T>(this T This, out T variable) => variable = This;
+        public static T AssignTo<T>(this T This, out T variable) => variable = This;
     }
 }

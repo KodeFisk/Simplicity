@@ -33,7 +33,7 @@ namespace Tests
         public void AssignToSpecifiedVariableAndReturnSameInstance()
         {
             List<int> list = null;
-            var assignedList = new List<int> {0, 1, 2}.Assign(out list);
+            var assignedList = new List<int> {0, 1, 2}.AssignTo(out list);
             
             Assert.NotNull(list);
             Assert.Same(assignedList, list);
