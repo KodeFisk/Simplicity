@@ -25,12 +25,12 @@ myWpfButton.Mutate(button =>
 });
 ```
 
-### Assign
+### AssignTo
 
 Let's you assign an object to a variable in a "fluent" syntax.
 
 ```C#
 List<int> list;
-new List<int> {0, 1, 2}.Assign(out list);
+new List<int> {0, 1, 2}.AssignTo(out list);
 ```
 
