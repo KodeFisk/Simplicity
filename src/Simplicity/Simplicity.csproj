@@ -2,20 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
-    <AssemblyName>KodeFisk.Simplicity</AssemblyName>
-    <RootNamespace>KodeFisk.Simplicity</RootNamespace>
+    <AssemblyName>JonStodle.Simplicity</AssemblyName>
+    <RootNamespace>JonStodle.Simplicity</RootNamespace>
     <Authors>Jon Stødle</Authors>
-    <Company>KodeFisk</Company>
+    <Company>Jon Stødle</Company>
     <Description>A library of extension methods to make C# easier to write and read.</Description>
-    <Copyright>KodeFisk 2018</Copyright>
-    <PackageLicenseUrl>https://github.com/KodeFisk/Simplicity/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/KodeFisk/Simplicity</PackageProjectUrl>
-    <Version>2.0.0</Version>
-    <PackageReleaseNotes>The version has been bumped to 2.0.0 as this release breaks build when upgrading from 1.0.0.
-    
-The Dump methods have been removed as they didn't work as intended.
-Mutate has been added, which let's you mutate an object in a single expression.
-Assign has been added, which let's you assign an object to a variable with a "fluent" syntax.</PackageReleaseNotes>
+    <Copyright>Jon Stødle 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/jonstodle/Simplicity/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jonstodle/Simplicity</PackageProjectUrl>
+    <Version>3.0.0</Version>
+    <PackageReleaseNotes>See CHANGELOG.md in the Github repository for the changelog:
+https://github.com/jonstodle/Simplicity/blob/master/CHANGELOG.md</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
